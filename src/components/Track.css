@@ -1,0 +1,31 @@
+.track {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    /* Add cursor pointer to indicate clickable */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+.track:hover {
+    background-color: #f0f0f0;
+    /* Light background on hover */
+}
+
+.track.selected {
+    opacity: 0.9;
+    /* Apply transparency */
+    color: black;
+}
+
+.track-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.track-info {
+    flex-grow: 1;
+    text-align: left;
+}
